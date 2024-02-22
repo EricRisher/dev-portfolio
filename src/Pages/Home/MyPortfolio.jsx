@@ -1,10 +1,10 @@
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
-    const navigateToGitHub = () => {
-   
-    window.location.href = 'https://github.com/EricRisher';
-  };
+const navigateToGitHub = () => {
+    window.open('https://github.com/EricRisher', '_blank').focus();
+};
+
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
