@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-scroll';
+
 export default function HeroSection() {
     return (
      <section id='heroSection' className="hero--section">
@@ -14,7 +16,7 @@ export default function HeroSection() {
                 UC Berkeley Coding Bootcamp graduate and Computer Science student skilled in JavaScript and full-stack web development, eager to bring dedication and meticulousness to a creative position.
                 </p>
             </div>
-            <button className='btn btn-primary'>Get in Touch</button>
+            <Link className='btn btn-primary GIT' to='Contact'>Get in Touch</Link>
         </div>
         <div className="hero--section--img">
             <img

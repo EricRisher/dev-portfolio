@@ -9,19 +9,16 @@ export default function AboutMe() {
                 <div className="hero--section--content">
                     <h1 className="skills--section--heading">About Me</h1>
                     <p className="hero--section-description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Omnis ullam facere cum labore natus minima molestias 
-                        ratione doloribus nobis, enim quidem, dolor repellendus 
-                        tempora nemo eius molestiae sit architecto. Reiciendis 
-                        fugit, voluptate error voluptates voluptatem enim. 
-                        Placeat laudantium, impedit ipsam molestiae quidem 
-                        ullam, culpa, labore commodi optio alias neque 
-                        exercitationem!
+                        Eric Risher is a UC Berkeley Coding Bootcamp graduate 
+                        and recent Computer Science student with skills in JavaScript, 
+                        and both front-end and back-end web development.
+                         He possesses a strong foundation in web applications, 
+                         software engineering, and various technologies such as 
+                         MongoDB, Git, Node.js, React, jQuery, MySQL, among others. 
                     </p>
                     <p className="hero--section-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Id dignissimos omnis tenetur eius distinctio quae beatae 
-                        molestias ratione obcaecati totam!
+                        Eric has demonstrated his ability to apply theoretical knowledge and 
+                     hands-on programming skills to real-world projects.
                     </p>
                 </div>
             </div>
