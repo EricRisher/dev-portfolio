@@ -1,0 +1,59 @@
+
+{
+  "skills": [
+    {
+      "id": 1,
+      "src": "./img/frontendlogo.png",
+      "title": "Front-End",
+      "description": "I'm a front-end developer skilled in HTML, CSS, JavaScript, and React, focused on crafting responsive and intuitive interfaces that perform seamlessly across devices."
+    },
+    {
+      "id": 2,
+      "src": "./img/backendlogo.png",
+      "title": "Back-End",
+      "description": "As a back-end developer, I specialize in Node.js, Express, and database management, building secure, scalable server solutions that power complex applications."
+    },
+    {
+      "id": 3,
+      "src": "./img/uiuxlogo.png",
+      "title": "UI & UX Design",
+      "description": "My approach to UI & UX design centers on creating user-centric and visually appealing interfaces, with a commitment to iterating based on user feedback for optimal usability."
+    },
+    {
+      "id": 4,
+      "src": "./img/developmentlogo.png",
+      "title": "Web Development",
+      "description": "Educated at UC Berkeley Extension and Saddleback College, I'm a web developer who thrives on solving technical challenges with innovative solutions, continuously learning to stay at the forefront of web technology."
+    }
+  ],
+  "portfolio" : [
+    {
+      "id": 1,
+      "src": "http://placekitten.com/500/500",
+      "title": "E-Commerce",
+      "description": "A full-stack e-commerce application built with React, Redux, Node.js, Express, and MongoDB, featuring user authentication, product search and filtering, and payment processing.",
+      "link": "View In Github"
+    },
+    {
+      "id": 2,
+      "src": "http://placekitten.com/500/500",
+      "title": "Social Media",
+      "description": "A full-stack social media application built with React, Redux, Node.js, Express, and MongoDB, featuring user authentication, post creation and interaction, and real-time notifications.",
+      "link": "View In Github"
+    },
+    {
+      "id": 3,
+      "src": "http://placekitten.com/500/500",
+      "title": "E-Learning",
+      "description": "A full-stack e-learning application built with React, Redux, Node.js, Express, and MongoDB, featuring user authentication, course creation and enrollment, and progress tracking.",
+      "link": "View In Github"
+    },
+    {
+      "id": 4,
+      "src": "http://placekitten.com/500/500",
+      "title": "Portfolio",
+      "description": "A full-stack portfolio application built with React, Node.js, Express, and MongoDB, featuring user authentication, project creation and management, and contact form submission.",
+      "link": "View In Github"
+    }
+  ]
+}
