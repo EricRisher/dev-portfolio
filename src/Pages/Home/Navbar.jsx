@@ -55,7 +55,7 @@ function Navbar() {
                             className='navbar--content'
                             >
                              Home
-                             </Link>
+                        </Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu} 
@@ -68,7 +68,7 @@ function Navbar() {
                             className='navbar--content'
                             >
                              Portfolio
-                             </Link>
+                        </Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu} 
@@ -81,22 +81,21 @@ function Navbar() {
                             className='navbar--content'
                             >
                              About Me
-                             </Link>
+                        </Link>
                     </li>
                 </ul>
-
             </div>
-                                    <Link onClick={closeMenu} 
-                            activeClass='navbar--active-content' 
-                            spy={true} 
-                            smooth={true} 
-                            offset={-70} 
-                            duration={500} 
-                            to='Contact' 
-                            className='btn btn-outline-primary'
-                            >
-                             Contact Me
-                             </Link>
+                        <Link onClick={closeMenu} 
+                        activeClass='navbar--active-content' 
+                        spy={true} 
+                        smooth={true} 
+                        offset={-70} 
+                        duration={500} 
+                        to='Contact' 
+                        className='btn btn-outline-primary'
+                        >
+                         Contact Me
+                         </Link>
         </nav>
     )
 }
