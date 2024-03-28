@@ -1,4 +1,3 @@
-
 {
   "skills": [
     {
@@ -26,34 +25,85 @@
       "description": "Educated at UC Berkeley Extension and Saddleback College, I'm a web developer who thrives on solving technical challenges with innovative solutions, continuously learning to stay at the forefront of web technology."
     }
   ],
-  "portfolio" : [
+  "portfolio": [
     {
       "id": 1,
-      "src": "http://placekitten.com/500/500",
-      "title": "E-Commerce",
-      "description": "A full-stack e-commerce application built with React, Redux, Node.js, Express, and MongoDB, featuring user authentication, product search and filtering, and payment processing.",
-      "link": "View In Github"
-    },
+      "src": "./img/quantumbyte.png",
+      "title": "QuantumByte",
+      "description": "QuantumByte is a dynamic platform redefining digital storytelling for tech enthusiasts. It combines blog posting, real-time discussions, and secure user interaction, making it the ideal hub for sharing insights and connecting with the tech community. Whether you're looking to share insights, explore new tech trends, or simply connect with like-minded individuals, QuantumByte is your go-to digital hub.",
+      "href": "https://github.com/EricRisher/tech-blog",
+      "tech": ["Node", "Express", "MySQL", "Handlebars", "Bcrypt", "Sequelize"],
+      "active": true
+    
+    },    
     {
       "id": 2,
-      "src": "http://placekitten.com/500/500",
-      "title": "Social Media",
-      "description": "A full-stack social media application built with React, Redux, Node.js, Express, and MongoDB, featuring user authentication, post creation and interaction, and real-time notifications.",
-      "link": "View In Github"
+      "src": "./img/jate.png",
+      "title": "J.A.T.E.",
+      "description": "Driven by the allure of Progressive Web Application, I created a text editor that seamlessly merges the reliability of offline access with the elegance of in-browser functionality, aiming for an uninterrupted writing and coding experience, accessible anywhere, anytime. This project represents a harmonious blend of technical innovation and everyday utility, ensuring your thoughts and work remain intact and readily available, regardless of your internet connection's reliability.",
+      "href": "https://github.com/EricRisher/just-another-text-editor",
+      "tech": [
+        "Node",
+        "Express",
+        "Babel",
+        "Webpack",
+        "Service Workers",
+        "IndexedDB"
+      ],
+      "active": true
     },
     {
       "id": 3,
-      "src": "http://placekitten.com/500/500",
-      "title": "E-Learning",
-      "description": "A full-stack e-learning application built with React, Redux, Node.js, Express, and MongoDB, featuring user authentication, course creation and enrollment, and progress tracking.",
-      "link": "View In Github"
+      "src": "./img/pickypaws.png",
+      "title": "Picky Paws",
+      "description": "Picky Paws offers a unique solution for pet owners, providing a specialized platform to find pet food that caters to specific allergies. This full-stack application enhances user experience with tailored searches, fostering a community of informed pet lovers. Its secure, interactive environment ensures a reliable source for pet care information.",
+      "href": "https://github.com/EricRisher/picky-paws",
+      "tech": [
+        "Node",
+        "Express",
+        "MySQL",
+        "Firebase",
+        "Handlebars",
+        "Bcrypt",
+        "Sequelize"
+      ],
+      "active": true
     },
     {
       "id": 4,
-      "src": "http://placekitten.com/500/500",
-      "title": "Portfolio",
-      "description": "A full-stack portfolio application built with React, Node.js, Express, and MongoDB, featuring user authentication, project creation and management, and contact form submission.",
-      "link": "View In Github"
+      "src": "./img/weatherdashboard.png",
+      "title": "Weather Dashboard",
+      "description": "The Weather Dashboard simplifies weather tracking with its clean interface, offering real-time data and a 5-day forecast for any city. Leveraging the API, it ensures accurate updates, enhanced by a search history for easy revisits. Designed for simplicity and accessibility, it's perfect for travelers, weather enthusiasts, and anyone in need of reliable weather insights.",
+      "href": "https://github.com/EricRisher/weather-dashboard",
+      "tech": ["HTML", "CSS", "JavaScript", "OpenWeather API"],
+      "active": true
+    },
+    {
+      "id": 5,
+      "src": "./img/findmefood.png",
+      "title": "Find me Food!",
+      "description": "The Find me food app streamlines your search for any cuisine, integrating Google Maps to showcase nearby dining options based on your location and preferences. It's a one-stop solution for discovering and reviewing eateries, eliminating the need to juggle between apps for information. Simply enter your location and desired cuisine to find your next meal with ease.",
+      "href": "https://github.com/EricRisher/find-me-food",
+      "tech": ["HTML", "CSS", "JavaScript", "Google Maps API"],
+      "active": true
+    },
+    {
+      "id": 6,
+      "src": "./img/employeetracker.png",
+      "title": "Employee Tracker",
+      "description": "This employee management system streamlines HR tasks with an intuitive interface for managing roles, departments, and workforce data, designed to automate processes, enhance operational efficiency, and reduce manual errors, demonstrating a commitment to simplifying business operations.",
+      "href": "https://github.com/EricRisher/employee-tracker",
+      "tech": ["JavaScript", "Inquirer", "Jest", "MySQL", "Node"],
+      "active": true
+    },
+    {
+      "id": 7,
+      "src": "./img/socialnetwork.png",
+      "title": "Social Network API",
+      "description": "Creating this Social Network API was fueled by my fascination with the challenges and intricacies of social media data. It was an exploration into developing a platform that supports the vibrant and complex interactions of a social network, from sharing thoughts to building connections. This endeavor highlighted the capacity for modern technology to handle vast, intricate data landscapes, making social interactions online seamless and scalable.",
+      "href": "https://github.com/EricRisher/social-network-api",
+      "tech": ["Express", "Mongoose", "MongoDB", "Node"],
+      "active": true
     }
   ]
 }

@@ -20,7 +20,7 @@ export default function HeroSection() {
         </div>
         <div className="hero--section--img">
             <img
-                src='./img/headshot.jpg'
+                src='./img/ericcamera.jpg'
                 alt='hero section'
             />
         </div>

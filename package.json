@@ -1,6 +1,7 @@
 {
+  "homepage": "https://ericrisher.com/",
   "name": "react-portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
