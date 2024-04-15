@@ -28,19 +28,45 @@
   "portfolio": [
     {
       "id": 1,
+      "src": "./img/techhaven.webp",
+      "title": "Tech Haven | E-Commerce",
+      "description": "Tech Haven was built to offer tech enthusiasts a seamless shopping experience with a curated selection of high-quality products. Utilizing modern technologies for fast performance and security, our platform simplifies the shopping process by providing access to a wide range of gadgets, electronics, and accessories in one convenient hub.",
+      "href": "https://github.com/EricRisher/e-commerce",
+      "live": "",
+      "tech": [
+        "MongoDB",
+        "Next",
+        "React",
+        "Stripe",
+        "SASS",
+        "TypeScript",
+        "Docker",
+        "GraphQL"
+      ],
+      "active": true
+    },
+    {
+      "id": 2,
       "src": "./img/quantumbyte.webp",
-      "title": "QuantumByte",
+      "title": "QuantumByte | Tech Blog",
       "description": "QuantumByte is a dynamic platform redefining digital storytelling for tech enthusiasts. It combines blog posting, real-time discussions, and secure user interaction, making it the ideal hub for sharing insights and connecting with the tech community. Whether you're looking to share insights, explore new tech trends, or simply connect with like-minded individuals, QuantumByte is your go-to digital hub.",
       "href": "https://github.com/EricRisher/tech-blog",
       "live": "https://quantum-byte-86d6513b02b4.herokuapp.com/",
-      "tech": ["Node", "Express", "MySQL", "Handlebars", "Bcrypt", "Sequelize", "Heroku"],
+      "tech": [
+        "Node",
+        "Express",
+        "MySQL",
+        "Handlebars",
+        "Bcrypt",
+        "Sequelize",
+        "Heroku"
+      ],
       "active": true
-    
-    },    
+    },
     {
       "id": 2,
       "src": "./img/jate.webp",
-      "title": "J.A.T.E.",
+      "title": "J.A.T.E. | Just Another Text Editor",
       "description": "Driven by the allure of Progressive Web Application, I created a text editor that seamlessly merges the reliability of offline access with the elegance of in-browser functionality, aiming for an uninterrupted writing and coding experience, accessible anywhere, anytime. This project represents a harmonious blend of technical innovation and everyday utility, ensuring your thoughts and work remain intact and readily available, regardless of your internet connection's reliability.",
       "href": "https://github.com/EricRisher/just-another-text-editor",
       "live": "https://just-another-text-editor-fl0x.onrender.com/",
