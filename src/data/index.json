@@ -49,7 +49,7 @@
       "id": 2,
       "src": "./img/quantumbyte.webp",
       "title": "QuantumByte | Tech Blog",
-      "description": "QuantumByte is a dynamic platform redefining digital storytelling for tech enthusiasts. It combines blog posting, real-time discussions, and secure user interaction, making it the ideal hub for sharing insights and connecting with the tech community. Whether you're looking to share insights, explore new tech trends, or simply connect with like-minded individuals, QuantumByte is your go-to digital hub.",
+      "description": "QuantumByte is redefining digital storytelling for tech enthusiasts. It combines blog posting, real-time discussions, and secure user interaction, making it ideal for sharing and connecting with the tech community. Whether you're looking to share insights, explore new tech trends, or connect with like-minded individuals, QuantumByte is your go-to digital hub.",
       "href": "https://github.com/EricRisher/tech-blog",
       "live": "https://quantum-byte-86d6513b02b4.herokuapp.com/",
       "tech": [
@@ -67,7 +67,7 @@
       "id": 2,
       "src": "./img/jate.webp",
       "title": "J.A.T.E. | Just Another Text Editor",
-      "description": "Driven by the allure of Progressive Web Application, I created a text editor that seamlessly merges the reliability of offline access with the elegance of in-browser functionality, aiming for an uninterrupted writing and coding experience, accessible anywhere, anytime. This project represents a harmonious blend of technical innovation and everyday utility, ensuring your thoughts and work remain intact and readily available, regardless of your internet connection's reliability.",
+      "description": "Driven by the allure of Progressive Web Application, I created a text editor that aims for an uninterrupted writing and coding experience, accessible anywhere, anytime. This project represents a harmonious blend of technical innovation and everyday utility, ensuring your thoughts and work remain intact and readily available, regardless of your internet connection's reliability.",
       "href": "https://github.com/EricRisher/just-another-text-editor",
       "live": "https://just-another-text-editor-fl0x.onrender.com/",
       "tech": [
@@ -133,7 +133,7 @@
       "id": 7,
       "src": "./img/socialnetwork.webp",
       "title": "Social Network API",
-      "description": "Creating this Social Network API was fueled by my fascination with the challenges and intricacies of social media data. It was an exploration into developing a platform that supports the vibrant and complex interactions of a social network, from sharing thoughts to building connections. This endeavor highlighted the capacity for modern technology to handle vast, intricate data landscapes, making social interactions online seamless and scalable.",
+      "description": "Creating this Social Network API was fueled by my fascination with the challenges and intricacies of social media data. It was an exploration into developing a platform that supports the complex interactions of a social network, from sharing thoughts to building connections.",
       "href": "https://github.com/EricRisher/social-network-api",
       "live": "https://github.com/EricRisher/social-network-api",
       "tech": ["Express", "Mongoose", "MongoDB", "Node"],
