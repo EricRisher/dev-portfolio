@@ -185,6 +185,10 @@ h2 {
 .navbar--items ul > li > a {
   text-decoration: none;
 }
+
+.navbar-photo {
+  padding: 15px;
+}
 /* Navbar Content */
 .navbar--content {
   color: var(--darkblue);
@@ -480,7 +484,38 @@ h2 {
 /* Portfolio Ends */
 
 /* Photography Starts*/
+.photo--header {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
 
+.photo--container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 20px;
+  width: auto;
+  background-color: var(--bg-shade);
+}
+
+.photo--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 calc(33.333% - 28.4px);
+  background: #fff;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.photo--card > img {
+  width: 100%;
+}
 /* Photography Ends */
 
 .GIT {

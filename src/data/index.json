@@ -139,5 +139,80 @@
       "tech": ["Express", "Mongoose", "MongoDB", "Node"],
       "active": true
     }
+  ],
+  "photography": [
+    {
+      "id": 1,
+      "src": "https://placehold.co/400x600",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 2,
+      "src": "https://placehold.co/400x600",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 3,
+      "src": "https://placehold.co/500x700",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 4,
+      "src": "https://placehold.co/500x700",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 5,
+      "src": "https://placehold.co/800x1000",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 6,
+      "src": "https://placehold.co/800x1000",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 7,
+      "src": "https://placehold.co/800x1000",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 8,
+      "src": "https://placehold.co/850x1100",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 9,
+      "src": "https://placehold.co/1800x1200",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 10,
+      "src": "https://placehold.co/1800x2400",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 11,
+      "src": "https://placehold.co/1800x2400",
+      "alt": "photo by ericrisher",
+      "active": true
+    },
+    {
+      "id": 12,
+      "src": "https://placehold.co/600x400",
+      "alt": "photo by ericrisher",
+      "active": true
+    }
   ]
+
 }
