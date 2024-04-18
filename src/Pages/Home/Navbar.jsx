@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -75,6 +76,15 @@ function Navbar() {
             >
               Portfolio
             </Link>
+          </li>
+          <li>
+            <RouterLink
+              to="/photography"
+              className="navbar--content"
+              onClick={closeMenu}
+            >
+              Photography
+            </RouterLink>
           </li>
         </ul>
       </div>
