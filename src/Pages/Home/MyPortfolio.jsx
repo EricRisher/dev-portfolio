@@ -5,6 +5,10 @@ export default function MyPortfolio() {
     window.open("https://github.com/EricRisher", "_blank").focus();
   };
 
+  const navigateToProject = (url) => {
+    window.open(url, "_blank").focus();
+  };
+
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
@@ -40,8 +44,8 @@ export default function MyPortfolio() {
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
-            <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+            <div className="portfolio--section--img" onClick={() => navigateToProject(item.live)}>
+              <img src={item.src} alt={item.title} style={{cursor: 'pointer'}} />
             </div>
             <div className="portfolio--section--card--content">
               <div>

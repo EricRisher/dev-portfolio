@@ -1,5 +1,5 @@
-/* Global CSS */
 
+/* Global CSS */
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -17,11 +17,11 @@ p {
   margin: 0;
 }
 :root {
-  --primary: #5e3bee;
-  --heading-color: #282938;
+  --primary: #4594ee;
+  --heading-color: #2b2d46;
   --bg-shade: #f5fcff;
-  --github: #e62872;
-  --darkblue: #1c1e53;
+  --github: #a44569;
+  --darkblue: #2d2e6f;
   --black: #000000;
   --white: #ffffff;
 }
@@ -207,25 +207,34 @@ h2 {
 
 /* Hero Section Style */
 .hero--section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--bg-shade);
+  width: 100%;
+}
+
+.hero--wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  width: 75%;
+  height: auto;
   align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-  background-color: var(--bg-shade);
 }
 .hero--section--content-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 50px;
+
 }
 .hero--section--content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 21.333px;
+  width: 60vh
 }
 .hero--section--content--box > button {
   margin-top: 21.333px;
@@ -240,19 +249,40 @@ h2 {
 .hero--section--title--color {
   color: var(--primary);
 }
-.hero--section-description {
-  color: var(--darkblue);
-  font-size: 24px;
+.hero--section--description {
+  color: var(--heading-color);
+  font-size: 22px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 30px;
 }
+
 .hero--section--img {
   display: flex;
+  max-width: 500px;
+  max-height: 500px;
 }
 .hero--section--img > img {
-  width: 500px;
-  height: auto;
+  max-width: 500px;
+  max-height: 500px;
   border-radius: 50%;
+}
+
+.blinking-cursor:after {
+  content: "|";
+  color: #000;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 /* Hero Section Style Ends */
 
@@ -324,12 +354,12 @@ h2 {
   font-weight: 700;
   line-height: 45px;
 }
-.skills--section--description {
-  color: var(--black);
-  font-size: 21.3px;
+.skills--section--card--description {
+  color: var(--heading-color);
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 25px;
 }
 /* Skills Style Ends */
 
@@ -344,7 +374,10 @@ h2 {
 .about--section--img > img {
   width: 100%;
   height: 100%;
-  border-radius: 8px;
+  border-radius: 20%;
+  max-width: 700px;
+  padding-left: 0px;
+
 }
 /* About Us Ends */
 
@@ -389,7 +422,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 100%;
+  max-width: 1000px;
   gap: 32px;
   flex: 1 0 calc(33.333% - 28.4px);
   background: #fff;
@@ -445,6 +478,10 @@ h2 {
 }
 
 /* Portfolio Ends */
+
+/* Photography Starts*/
+
+/* Photography Ends */
 
 .GIT {
   margin-top: 30px;
@@ -706,6 +743,7 @@ input[type="checkbox"] {
 /* Hamburger menu  */
 
 .nav__hamburger {
+  border: none;
   display: none;
   width: 2rem;
   height: 1.5rem;
