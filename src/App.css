@@ -376,8 +376,8 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   border-radius: 20%;
   max-width: 700px;
   padding-left: 0px;
@@ -873,10 +873,30 @@ input[type="checkbox"] {
     height: auto;
   }
 
-  .hero--section-description {
-    font-size: 20px;
-    line-height: 30px;
-    text-align: left;
+   .hero--wrapper {
+    grid-template-columns: 1fr;  
+    width: 90%; 
+  }
+
+  .hero--section--content {
+    width: 100%; 
+    gap: 10px; 
+  }
+
+  .hero--section--content--box {
+    margin-top: 100px;
+    gap: 20px; 
+  }
+
+  .hero--section--title {
+    font-size: 30px; 
+    line-height: 42px; 
+  }
+
+  .hero--section--description {
+    margin-top: 20px;
+    font-size: 16px; 
+    line-height: 22px; 
   }
 
   .portfolio--section--container {
@@ -891,15 +911,24 @@ input[type="checkbox"] {
     align-items: flex-start;
   }
 
-
   .text-md {
     max-width: 300px;
     text-align: center;
   }
 
-  .hero--section-description{
-    max-width: 100%;
-    font-size: 16px;
+  .hero--section--content--box > a {
+    display: block;
+    margin-bottom: 25px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .about--section--img > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 /* Responsive Screens Ends*/
