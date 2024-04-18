@@ -4,7 +4,7 @@
       "id": 1,
       "src": "./img/frontendlogo.webp",
       "title": "Front-End",
-      "description": "I'm a front-end developer skilled in HTML, CSS, JavaScript, and React, focused on crafting responsive and intuitive interfaces that perform seamlessly across devices."
+      "description": "I'm skilled in Bootstrap, Sass JavaScript, and React, focused on crafting responsive and intuitive interfaces that perform seamlessly across devices."
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "id": 4,
       "src": "./img/developmentlogo.webp",
       "title": "Web Development",
-      "description": "Educated at UC Berkeley Extension and Saddleback College, I'm a web developer who thrives on solving technical challenges with innovative solutions, continuously learning to stay at the forefront of web technology."
+      "description": "Web developer who thrives on solving technical challenges with innovative solutions, continuously learning to stay at the forefront of web technology."
     }
   ],
   "portfolio": [
