@@ -185,6 +185,10 @@ h2 {
 .navbar--items ul > li > a {
   text-decoration: none;
 }
+
+.navbar-photo {
+  padding: 15px;
+}
 /* Navbar Content */
 .navbar--content {
   color: var(--darkblue);
@@ -372,8 +376,8 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   border-radius: 20%;
   max-width: 700px;
   padding-left: 0px;
@@ -478,6 +482,41 @@ h2 {
 }
 
 /* Portfolio Ends */
+
+/* Photography Starts*/
+.photo--header {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.photo--container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 20px;
+  width: auto;
+  background-color: var(--bg-shade);
+}
+
+.photo--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 calc(33.333% - 28.4px);
+  background: #fff;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.photo--card > img {
+  width: 100%;
+}
+/* Photography Ends */
 
 .GIT {
   margin-top: 30px;
@@ -834,10 +873,30 @@ input[type="checkbox"] {
     height: auto;
   }
 
-  .hero--section-description {
-    font-size: 20px;
-    line-height: 30px;
-    text-align: left;
+   .hero--wrapper {
+    grid-template-columns: 1fr;  
+    width: 90%; 
+  }
+
+  .hero--section--content {
+    width: 100%; 
+    gap: 10px; 
+  }
+
+  .hero--section--content--box {
+    margin-top: 100px;
+    gap: 20px; 
+  }
+
+  .hero--section--title {
+    font-size: 30px; 
+    line-height: 42px; 
+  }
+
+  .hero--section--description {
+    margin-top: 20px;
+    font-size: 16px; 
+    line-height: 22px; 
   }
 
   .portfolio--section--container {
@@ -852,15 +911,24 @@ input[type="checkbox"] {
     align-items: flex-start;
   }
 
-
   .text-md {
     max-width: 300px;
     text-align: center;
   }
 
-  .hero--section-description{
-    max-width: 100%;
-    font-size: 16px;
+  .hero--section--content--box > a {
+    display: block;
+    margin-bottom: 25px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .about--section--img > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 /* Responsive Screens Ends*/

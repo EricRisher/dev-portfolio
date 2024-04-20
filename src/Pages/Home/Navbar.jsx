@@ -1,8 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
+import { Link as RouterLink, useLocation } from "react-router-dom";
 
 function Navbar() {
+  const location = useLocation();
   const [navActive, setNavActive] = useState(false);
 
   const toggleNav = () => setNavActive(!navActive);
@@ -18,6 +20,16 @@ function Navbar() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  if (location.pathname === "/photography") {
+    return (
+      <nav className="navbar-photo">
+        <RouterLink to="/" className="btn btn-primary">
+          Back to Home
+        </RouterLink>
+      </nav>
+    );
+  }
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
@@ -75,6 +87,15 @@ function Navbar() {
             >
               Portfolio
             </Link>
+          </li>
+          <li>
+            <RouterLink
+              to="/photography"
+              className="navbar--content"
+              onClick={closeMenu}
+            >
+              Photography
+            </RouterLink>
           </li>
         </ul>
       </div>
