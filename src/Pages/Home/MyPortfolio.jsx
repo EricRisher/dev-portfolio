@@ -1,6 +1,44 @@
+import React, { useEffect, useRef, useState } from "react";
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
+  const [intersectedIndices, setIntersectedIndices] = useState([]);
+  const observerRef = useRef(null);
+
+  useEffect(() => {
+    // Initialize IntersectionObserver
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0,
+    };
+
+    const observer = new IntersectionObserver(handleIntersect, options);
+    observerRef.current = observer;
+
+    return () => {
+      // Cleanup observer on component unmount
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (observerRef.current && data && data.portfolio) {
+      const cards = document.querySelectorAll(".portfolio--section--card");
+      cards.forEach((card) => {
+        observerRef.current.observe(card);
+      });
+    }
+  }, [data, intersectedIndices]); // Add intersectedIndices as a dependency
+
+  const handleIntersect = (entries) => {
+    entries.forEach((entry) => {
+      entry.target.classList.toggle("show", entry.isIntersecting);
+    });
+  };
+
   const navigateToGitHub = () => {
     window.open("https://github.com/EricRisher", "_blank").focus();
   };
@@ -44,8 +82,15 @@ export default function MyPortfolio() {
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
-            <div className="portfolio--section--img" onClick={() => navigateToProject(item.live)}>
-              <img src={item.src} alt={item.title} style={{cursor: 'pointer'}} />
+            <div
+              className="portfolio--section--img"
+              onClick={() => navigateToProject(item.live)}
+            >
+              <img
+                src={item.src}
+                alt={item.title}
+                style={{ cursor: "pointer" }}
+              />
             </div>
             <div className="portfolio--section--card--content">
               <div>
