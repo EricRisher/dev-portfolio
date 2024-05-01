@@ -20,24 +20,22 @@ export default function AboutMe() {
           if (entry.target === el.current) {
             new Typed(el.current, {
               strings: [
-                "Eric Risher is a UC Berkeley Coding Bootcamp graduate and recent Computer Science student with skills in JavaScript, and both front-end and back-end web development. He possesses a strong foundation in web applications, software engineering, and various technologies such as MongoDB, Git, Node.js, React, jQuery, MySQL, among others.",
+                "Hey there, I'm Eric Risher. I recently graduated from UC Berkeley Coding Bootcamp and I'm truly passionate about Computer Science. I love diving into JavaScript and I'm skilled in both front-end and back-end web development. Throughout my journey, I've built a strong foundation in web applications and software engineering. I'm also well-versed in various technologies like MongoDB, Git, Node.js, React, jQuery, MySQL, and more.",
               ],
               startDelay: 100,
-              typeSpeed: 5,
-              backSpeed: 50,
+              typeSpeed: 1,
               showCursor: false,
+              onComplete: () => {
+                new Typed(el2.current, {
+                  strings: [
+                    "What really drives me is bringing theory to life in practical projects. I thrive on the challenge of applying my knowledge to real-world scenarios, creating meaningful solutions along the way.",
+                  ],
+                  typeSpeed: 1,
+                  showCursor: false,
+                });
+              },
             });
-          } else if (entry.target === el2.current) {
-            new Typed(el2.current, {
-              strings: [
-                "Eric has demonstrated his ability to apply theoretical knowledge and hands-on programming skills to real-world projects.",
-              ],
-              startDelay: 4600,
-              typeSpeed: 5,
-              backSpeed: 50,
-              showCursor: false,
-            });
-          }
+        }
           // Once animation is started, unobserve the entry
           observer.unobserve(entry.target);
         }
