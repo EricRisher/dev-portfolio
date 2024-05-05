@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
-  const [intersectedIndices, setIntersectedIndices] = useState([]);
+  const [intersectedIndices] = useState([]);
   const observerRef = useRef(null);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ export default function MyPortfolio() {
         observerRef.current.observe(card);
       });
     }
-  }, [data, intersectedIndices]); // Add intersectedIndices as a dependency
+  }, [intersectedIndices]); // Add intersectedIndices as a dependency
 
   const handleIntersect = (entries) => {
     entries.forEach((entry) => {
