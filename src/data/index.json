@@ -31,7 +31,7 @@
       "src": "./img/techhaven.webp",
       "title": "Tech Haven | E-Commerce",
       "description": "Tech Haven was built to offer tech enthusiasts a seamless shopping experience with a curated selection of high-quality products. Utilizing modern technologies for fast performance and security, our platform simplifies the shopping process by providing access to a wide range of gadgets, electronics, and accessories in one convenient hub.",
-      "href": "https://github.com/EricRisher/e-commerce",
+      "href": "https://github.com/EricRisher/ecommerce",
       "live": "",
       "tech": [
         "MongoDB",
@@ -152,6 +152,92 @@
       "href": "https://github.com/EricRisher/social-network-api",
       "live": "https://github.com/EricRisher/social-network-api",
       "tech": ["Express", "Mongoose", "MongoDB", "Node"],
+      "active": true
+    }
+  ],
+  "tech": [
+    {
+      "id": 1,
+      "svg": "./img/javascript.svg",
+      "alt": "JavaScript",
+      "active": true
+    },
+    {
+      "id": 2,
+      "svg": "./img/react.svg",
+      "alt": "React",
+      "active": true
+    },
+    {
+      "id": 3,
+      "svg": "./img/typescript.svg",
+      "alt": "TypeScript",
+      "active": true
+    },
+    {
+      "id": 4,
+      "svg": "./img/nodejs.svg",
+      "alt": "Node.js",
+      "active": true
+    },
+    {
+      "id": 5,
+      "svg": "./img/mongodb.svg",
+      "alt": "MongoDB",
+      "active": true
+    },
+    {
+      "id": 6,
+      "svg": "./img/mysql.svg",
+      "alt": "MySQL",
+      "active": true
+    },
+    {
+      "id": 7,
+      "svg": "./img/sass.svg",
+      "alt": "Sass",
+      "active": true
+    },
+    {
+      "id": 1,
+      "svg": "./img/javascript.svg",
+      "alt": "JavaScript",
+      "active": true
+    },
+    {
+      "id": 2,
+      "svg": "./img/react.svg",
+      "alt": "React",
+      "active": true
+    },
+    {
+      "id": 3,
+      "svg": "./img/typescript.svg",
+      "alt": "TypeScript",
+      "active": true
+    },
+    {
+      "id": 4,
+      "svg": "./img/nodejs.svg",
+      "alt": "Node.js",
+      "active": true
+    },
+    {
+      "id": 5,
+      "svg": "./img/mongodb.svg",
+      "alt": "MongoDB",
+      "active": true
+    },
+    {
+      "id": 6,
+      "svg": "./img/mysql.svg",
+      "alt": "MySQL",
+      "active": true
+    },
+    {
+      "id": 7,
+      "svg": "./img/sass.svg",
+      "alt": "Sass",
       "active": true
     }
   ],
