@@ -64,7 +64,22 @@
       "active": true
     },
     {
-      "id": 2,
+      "id": 3,
+      "src": "./img/drivewayblasters.webp",
+      "title": "Driveway Blasters LLC",
+      "description": "Driveway Blasters LLC, founded by me and my business partner, leverages advanced pressure washing technology to offer top-notch cleaning services. We utilize high-pressure and soft washing techniques to ensure thorough and safe cleaning for a variety of surfaces, enhancing property appeal and maintenance.",
+      "href": "https://github.com/EricRisher/driveway-blasters",
+      "live": "https://drivewayblaster.com/",
+      "tech": [
+        "Node",
+        "React",
+        "Bootstrap",
+        "EmailJS"
+      ],
+      "active": true
+    },
+    {
+      "id": 4,
       "src": "./img/jate.webp",
       "title": "J.A.T.E. | Just Another Text Editor",
       "description": "Driven by the allure of Progressive Web Application, I created a text editor that aims for an uninterrupted writing and coding experience, accessible anywhere, anytime. This project represents a harmonious blend of technical innovation and everyday utility, ensuring your thoughts and work remain intact and readily available, regardless of your internet connection's reliability.",
@@ -82,7 +97,7 @@
       "active": true
     },
     {
-      "id": 3,
+      "id": 5,
       "src": "./img/pickypaws.webp",
       "title": "Picky Paws",
       "description": "Picky Paws offers a unique solution for pet owners, providing a specialized platform to find pet food that caters to specific allergies. This full-stack application enhances user experience with tailored searches, fostering a community of informed pet lovers. Its secure, interactive environment ensures a reliable source for pet care information.",
@@ -100,7 +115,7 @@
       "active": true
     },
     {
-      "id": 4,
+      "id": 6,
       "src": "./img/weatherdashboard.webp",
       "title": "Weather Dashboard",
       "description": "The Weather Dashboard simplifies weather tracking with its clean interface, offering real-time data and a 5-day forecast for any city. Leveraging the API, it ensures accurate updates, enhanced by a search history for easy revisits. Designed for simplicity and accessibility, it's perfect for travelers, weather enthusiasts, and anyone in need of reliable weather insights.",
@@ -110,7 +125,7 @@
       "active": true
     },
     {
-      "id": 5,
+      "id": 7,
       "src": "./img/findmefood.webp",
       "title": "Find me Food!",
       "description": "The Find me food app streamlines your search for any cuisine, integrating Google Maps to showcase nearby dining options based on your location and preferences. It's a one-stop solution for discovering and reviewing eateries, eliminating the need to juggle between apps for information. Simply enter your location and desired cuisine to find your next meal with ease.",
@@ -120,7 +135,7 @@
       "active": true
     },
     {
-      "id": 6,
+      "id": 8,
       "src": "./img/employeetracker.webp",
       "title": "Employee Tracker",
       "description": "This employee management system streamlines HR tasks with an intuitive interface for managing roles, departments, and workforce data, designed to automate processes, enhance operational efficiency, and reduce manual errors, demonstrating a commitment to simplifying business operations.",
@@ -130,7 +145,7 @@
       "active": true
     },
     {
-      "id": 7,
+      "id": 9,
       "src": "./img/socialnetwork.webp",
       "title": "Social Network API",
       "description": "Creating this Social Network API was fueled by my fascination with the challenges and intricacies of social media data. It was an exploration into developing a platform that supports the complex interactions of a social network, from sharing thoughts to building connections.",
