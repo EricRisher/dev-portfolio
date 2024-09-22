@@ -28,25 +28,33 @@
   "portfolio": [
     {
       "id": 1,
-      "src": "./img/techhaven.webp",
-      "title": "Tech Haven | E-Commerce",
-      "description": "Tech Haven was built to offer tech enthusiasts a seamless shopping experience with a curated selection of high-quality products. Utilizing modern technologies for fast performance and security, our platform simplifies the shopping process by providing access to a wide range of gadgets, electronics, and accessories in one convenient hub.",
-      "href": "https://github.com/EricRisher/ecommerce",
-      "live": "",
-      "tech": [
-        "MongoDB",
-        "Next",
-        "React",
-        "Stripe",
-        "SASS",
-        "TypeScript",
-        "Docker",
-        "GraphQL"
-      ],
+      "src": "./img/drivewayblasters.webp",
+      "title": "Driveway Blasters LLC | Pressure Washing Services",
+      "description": "Driveway Blasters LLC, founded by me and my business partner, leverages advanced pressure washing technology to offer top-notch cleaning services. We utilize high-pressure and soft washing techniques to ensure thorough and safe cleaning for a variety of surfaces, enhancing property appeal and maintenance.",
+      "href": "https://github.com/EricRisher/driveway-blasters",
+      "live": "https://drivewayblaster.com/",
+      "tech": ["React", "Bootstrap", "TypeScript", "JavaScript", "EmailJS", "Vercel", "Node"],
       "active": true
     },
     {
       "id": 2,
+      "src": "./img/caligo.webp",
+      "title": "Caligo | Discover Hidden Gems",
+      "description": "Caligo is a travel app that helps you uncover hidden gems and local favorites in your destination city. It offers a curated list of must-visit spots, from restaurants and cafes to parks and museums, ensuring you experience the best of your chosen city. With Caligo, you can explore like a local and discover the hidden treasures that make each city unique.",
+      "href": "https://github.com/EricRisher/caligo",
+      "live": "#",
+      "tech": [
+        "Next.js 14",
+        "TypeScript",
+        "JavaScript",
+        "Tailwind CSS",
+        "MySQL",
+        "Leaflet",
+        "Heroku"
+      ]
+    },
+    {
+      "id": 3,
       "src": "./img/quantumbyte.webp",
       "title": "QuantumByte | Tech Blog",
       "description": "QuantumByte is redefining digital storytelling for tech enthusiasts. It combines blog posting, real-time discussions, and secure user interaction, making it ideal for sharing and connecting with the tech community. Whether you're looking to share insights, explore new tech trends, or connect with like-minded individuals, QuantumByte is your go-to digital hub.",
@@ -60,21 +68,6 @@
         "Bcrypt",
         "Sequelize",
         "Heroku"
-      ],
-      "active": true
-    },
-    {
-      "id": 3,
-      "src": "./img/drivewayblasters.webp",
-      "title": "Driveway Blasters LLC",
-      "description": "Driveway Blasters LLC, founded by me and my business partner, leverages advanced pressure washing technology to offer top-notch cleaning services. We utilize high-pressure and soft washing techniques to ensure thorough and safe cleaning for a variety of surfaces, enhancing property appeal and maintenance.",
-      "href": "https://github.com/EricRisher/driveway-blasters",
-      "live": "https://drivewayblaster.com/",
-      "tech": [
-        "Node",
-        "React",
-        "Bootstrap",
-        "EmailJS"
       ],
       "active": true
     },
@@ -315,5 +308,4 @@
       "active": true
     }
   ]
-
 }

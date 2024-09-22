@@ -97,6 +97,7 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
+              <div className="portfolio--section--card--content--icons">
               <p
                 className="text-sm portfolio--link"
                 onClick={() => window.open(item.href, "_blank").focus()}
@@ -120,6 +121,30 @@ export default function MyPortfolio() {
                   />
                 </svg>
               </p>
+              <p
+                className="text-sm portfolio--link"
+                onClick={() => window.open(item.live, "_blank").focus()}
+              >
+                {" "}
+                Visit
+                {item.link}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 20 19"
+                  fill="none"
+                >
+                  <path
+                    d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                    stroke="currentColor"
+                    strokeWidth="2.66667"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </p>
+              </div>
               <div className="portfolio--tech-stack">
                 <h3 className="tech-stack--title">Tech Stack</h3>
                 <div className="tech-stack--items">
