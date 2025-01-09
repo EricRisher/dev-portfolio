@@ -14,7 +14,7 @@ export default function HeroSection() {
             </h1>
             <p className="hero--section--description">
               I'm a graduate from UC Berkeley Extension with a passion for
-              Computer Science, specializing in JavaScript framworks and
+              Computer Science, specializing in JavaScript frameworks and
               full-stack web development. I have hands on experience building
               scalable web applicaton and optimizing data systems.
             </p>

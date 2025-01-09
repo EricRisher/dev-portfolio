@@ -10,9 +10,10 @@ const Titles = () => {
       strings: [
         "Full Stack Developer",
         "Software Engineer",
+        "Tech Enthusiast",
+        "UI/UX Designer",
+        "Web Developer",
         "Photographer",
-        "JavaScript Enthusiast",
-        "Programmer",
       ],
       typeSpeed: 50,
       backSpeed: 60,

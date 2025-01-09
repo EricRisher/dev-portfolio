@@ -88,7 +88,7 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
-          <li>
+          {/* <li>
             <RouterLink
               to="/photography"
               className="navbar--content"
@@ -96,7 +96,7 @@ function Navbar() {
             >
               Photography
             </RouterLink>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="cta">

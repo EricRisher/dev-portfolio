@@ -4,31 +4,31 @@
       "id": 1,
       "src": "./img/frontendlogo.webp",
       "title": "Front-End",
-      "description": "I'm skilled in Bootstrap, Sass JavaScript, and React, focused on crafting responsive and intuitive interfaces that perform seamlessly across devices."
+      "description": "I've crafted responsive and intuitive interfaces that maximize user engagement across devices. I specialize in modern tools like Next.js, JavaScript, and TailwindCSS to ensure seamless user experiences across platforms."
     },
     {
       "id": 2,
       "src": "./img/backendlogo.webp",
       "title": "Back-End",
-      "description": "As a back-end developer, I specialize in Node.js, Express, and database management, building secure, scalable server solutions that power complex applications."
+      "description": "My projects are built to be secure, scalable, and reliable, focusing on optimal performance for dynamic web apps and APIs. I specialize in Node.js, Express, RESTful APIs, and database management with MySQL and MongoDB, leveraging advanced techniques like ORM integration."
     },
     {
       "id": 3,
       "src": "./img/uiuxlogo.webp",
       "title": "UI & UX Design",
-      "description": "My approach to UI & UX design centers on creating user-centric and visually appealing interfaces, with a commitment to iterating based on user feedback for optimal usability."
+      "description": "I design visually appealing and user-friendly interfaces to enhance user interaction. By iterating based on user feedback, I leverage design principles and tools like Figma and Adobe Photoshop to deliver optimal usability." 
     },
     {
       "id": 4,
       "src": "./img/developmentlogo.webp",
-      "title": "Web Development",
-      "description": "Web developer who thrives on solving technical challenges with innovative solutions, continuously learning to stay at the forefront of web technology."
+      "title": "Full-Stack Development",
+      "description": "I deliver end-to-end solutions, from concept to deployment, combining front-end and back-end technologies for seamless integration and performance. My expertise includes React, Node.js, and containerization with Docker, ensuring scalable and efficient deployments."
     }
   ],
   "portfolio": [
     {
       "id": 1,
-      "src": "./img/Caligo.site.png",
+      "src": "./img/caligo.site.png",
       "title": "Caligo | Discover Hidden Gems",
       "description": "Caligo is a travel app that helps you uncover hidden gems and local favorites in your destination city. It offers a curated list of must-visit spots, from restaurants and cafes to parks and museums, ensuring you experience the best of your chosen city. With Caligo, you can explore like a local and discover the hidden treasures that make each city unique.",
       "href": "https://github.com/EricRisher/caligo",

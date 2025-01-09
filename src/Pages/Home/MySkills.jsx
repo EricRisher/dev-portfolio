@@ -33,15 +33,17 @@ const MySkills = () => {
           <motion.div
             key={index}
             className="skills--section--card"
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0 }}
             animate={controls}
             custom={index}
           >
-            <div className="skills--section--card--icon">
-              <img src={skill.src} alt={skill.title} />
-            </div>
-            <div className="skills--section--card--title">
-              <h3>{skill.title}</h3>
+            <div className="skills--section--card--content">
+              <div className="skills--section--card--icon">
+                <img src={skill.src} alt={skill.title} />
+              </div>
+              <div className="skills--section--card--title">
+                <h3>{skill.title}</h3>
+              </div>
             </div>
             <div className="skills--section--card--description">
               <p>{skill.description}</p>
