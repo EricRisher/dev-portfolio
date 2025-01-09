@@ -28,31 +28,40 @@
   "portfolio": [
     {
       "id": 1,
-      "src": "./img/drivewayblasters.webp",
-      "title": "Driveway Blasters LLC | Pressure Washing Services",
-      "description": "Driveway Blasters LLC, founded by me and my business partner, leverages advanced pressure washing technology to offer top-notch cleaning services. We utilize high-pressure and soft washing techniques to ensure thorough and safe cleaning for a variety of surfaces, enhancing property appeal and maintenance.",
-      "href": "https://github.com/EricRisher/driveway-blasters",
-      "live": "https://drivewayblaster.com/",
-      "tech": ["React", "Bootstrap", "TypeScript", "JavaScript", "EmailJS", "Vercel", "Node"],
-      "active": true
-    },
-    {
-      "id": 2,
-      "src": "./img/caligo.webp",
+      "src": "./img/Caligo.site.png",
       "title": "Caligo | Discover Hidden Gems",
       "description": "Caligo is a travel app that helps you uncover hidden gems and local favorites in your destination city. It offers a curated list of must-visit spots, from restaurants and cafes to parks and museums, ensuring you experience the best of your chosen city. With Caligo, you can explore like a local and discover the hidden treasures that make each city unique.",
       "href": "https://github.com/EricRisher/caligo",
-      "live": "#",
+      "live": "https://www.caligo.site/",
       "tech": [
         "Next.js 14",
         "TypeScript",
         "JavaScript",
         "Tailwind CSS",
         "MySQL",
-        "Leaflet",
-        "Heroku"
+        "Google Maps API",
+        "Apache2"
       ]
     },
+    {
+      "id": 2,
+      "src": "./img/drivewayblasters.webp",
+      "title": "Driveway Blasters LLC | Pressure Washing Services",
+      "description": "Driveway Blasters LLC, founded by me and my business partner, leverages advanced pressure washing technology to offer top-notch cleaning services. We utilize high-pressure and soft washing techniques to ensure thorough and safe cleaning for a variety of surfaces, enhancing property appeal and maintenance.",
+      "href": "https://github.com/EricRisher/driveway-blasters",
+      "live": "https://drivewayblaster.com/",
+      "tech": [
+        "React",
+        "Bootstrap",
+        "TypeScript",
+        "JavaScript",
+        "EmailJS",
+        "Vercel",
+        "Node"
+      ],
+      "active": true
+    },
+
     {
       "id": 3,
       "src": "./img/quantumbyte.webp",
