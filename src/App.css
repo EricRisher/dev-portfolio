@@ -229,14 +229,13 @@ h3 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 14px;
 }
 
 .header--social--icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   flex-shrink: 0;
   text-decoration: none;
   margin: 5px 0 0 0 !important;
@@ -780,7 +779,7 @@ input[type="checkbox"] {
     padding: 24px;
   }
   .btn-outline-primary {
-    padding: 10px 20px;
+    padding: 10px 26px;
     margin-right: 60px;
   }
   .hero--section {
