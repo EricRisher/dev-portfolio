@@ -1,42 +1,16 @@
-import React, { useEffect } from "react";
-import { motion, useAnimation, useScroll } from "framer-motion";
-import { useTransform } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import React from "react";
 import data from "../../data/index.json";
 
 const MySkills = () => {
-  const controls = useAnimation();
-  const { ref: skillsRef, inView: skillsInView } = useInView();
-  const { scrollYProgress } = useScroll();
-
-  // Framer Motion Animation for skills
-  useEffect(() => {
-    if (skillsInView) {
-      controls.start((i) => ({
-        opacity: 1,
-        y: 0,
-        transition: { duration: 0.5, delay: i * 0.2 },
-      }));
-    }
-  }, [controls, skillsInView]);
-
-  // Horizontal scroll effect based on vertical scroll position
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
-
   return (
     <section className="skills--section" id="mySkills">
       <div className="portfolio--container">
-        <h2 className="skills--section--heading">My Expertise</h2>
+        <h2 className="skills--section--heading">What I Do</h2>
       </div>
-      <div className="skills--section--container" ref={skillsRef}>
+
+      <div className="skills--section--container">
         {data?.skills?.map((skill, index) => (
-          <motion.div
-            key={index}
-            className="skills--section--card"
-            initial={{ opacity: 0 }}
-            animate={controls}
-            custom={index}
-          >
+          <div key={index} className="skills--section--card">
             <div className="skills--section--card--content">
               <div className="skills--section--card--icon">
                 <img src={skill.src} alt={skill.title} />
@@ -48,16 +22,25 @@ const MySkills = () => {
             <div className="skills--section--card--description">
               <p>{skill.description}</p>
             </div>
-          </motion.div>
-        ))}
-      </div>
-      <motion.div className="tech--skills" data-animated="true" style={{ x }}>
-        {data?.tech?.map((tech, index) => (
-          <div key={index} className="tech--skill-card">
-            <img src={tech.svg} alt={tech.alt} className="tech--skill--icon" />
           </div>
         ))}
-      </motion.div>
+      </div>
+
+      <div className="tech--skills">
+        <div className="tech--skills--slider">
+          {[...data.tech, ...data.tech].map((tech, index) => (
+            <div key={index} className="tech--skill-card">
+              <img
+                src={tech.svg}
+                alt={tech.alt}
+                width="150px"
+                height="150px"
+                className="tech--skill--icon"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };

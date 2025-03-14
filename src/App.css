@@ -351,7 +351,7 @@ h3 {
 /* Skills Section Style */
 .skills--section {
   display: flex;
-  padding: 40px 10px;
+  padding: 40px 12px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -384,9 +384,8 @@ h3 {
   width: 100%;
   max-width: 400px;
   min-width: 40vw;
-}s
-
-.skills--section--card:hover {
+}
+s .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
 }
 .skills--section--card:hover .skills--section--description {
@@ -430,33 +429,33 @@ h3 {
 }
 
 .tech--skills {
+  overflow: hidden;
+  position: relative;
+}
+
+.tech--skills--slider {
   display: flex;
-  justify-content: space-between;
-  width: 100vw;
-  padding-top: 100px;
-  flex-direction: row;
-  margin: 0 auto;
-  gap: 40px;
+  align-items: center;
+  width: fit-content;
+  max-height: 150px;
+  animation: infiniteScroll 20s linear infinite;
 }
 
 .tech--skill-card {
-  display: inline-flex;
-  flex: 1 1 auto;
-  padding: 10px 15px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  background: #f9f9f9;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
-  min-width: 100px;
-  max-width: 150px;
+  flex-shrink: 0;
+  padding: 10px 20px;
+  max-height: 200px;
+}
+/* Infinite scroll animation */
+@keyframes infiniteScroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
-.tech--skill-card > img {
-  width: 150px;
-  min-width: 100px;
-  height: auto;
-}
 
 /* Skills Style Ends */
 
@@ -952,5 +951,11 @@ input[type="checkbox"] {
   .GIT {
     margin-left: 24px;
   }
+  .tech--skill-card > img, .tech--skill-card {
+    width: 50px;
+    min-width: 100px;
+    max-height: 100px;
+  }
+
 }
 /* Responsive Screens Ends*/

@@ -18,7 +18,7 @@ const Titles = () => {
       typeSpeed: 50,
       backSpeed: 60,
       backDelay: 2000,
-      startDelay: 500,
+      startDelay: 600,
       loop: true,
       showCursor: true,
       cursorChar: "|",

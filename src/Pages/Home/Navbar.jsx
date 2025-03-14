@@ -97,13 +97,6 @@ function Navbar() {
               Photography
             </RouterLink>
           </li> */}
-          <li
-            href="./swe-ericrisher.pdf"
-            download="EricRisherResume.pdf"
-            className="decoration-none"
-          >
-            Resume
-          </li>
         </ul>
       </div>
       <div className="cta">
