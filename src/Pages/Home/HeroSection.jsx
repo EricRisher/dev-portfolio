@@ -13,10 +13,10 @@ export default function HeroSection() {
               <Titles />
             </h1>
             <p className="hero--section--description">
-              I'm a graduate from UC Berkeley Extension with a passion for
+              UC Berkeley Full-Stack bootcamp graduate with a passion for
               Computer Science, specializing in JavaScript frameworks and
-              full-stack web development. I have hands on experience building
-              scalable web applicaton and optimizing data systems.
+              full-stack web development. With experience in building scalable
+              web applicaton and optimizing data systems.
             </p>
           </div>
           <Link className="btn btn-primary GIT" to="Contact">

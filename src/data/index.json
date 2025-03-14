@@ -16,7 +16,7 @@
       "id": 3,
       "src": "./img/uiuxlogo.webp",
       "title": "UI & UX Design",
-      "description": "I design visually appealing and user-friendly interfaces to enhance user interaction. By iterating based on user feedback, I leverage design principles and tools like Figma and Adobe Photoshop to deliver optimal usability." 
+      "description": "I design visually appealing and user-friendly interfaces to enhance user interaction. By iterating based on user feedback, I leverage design principles and tools like Figma and Adobe Photoshop to deliver optimal usability."
     },
     {
       "id": 4,
@@ -28,7 +28,7 @@
   "portfolio": [
     {
       "id": 1,
-      "src": "./img/caligo.site.png",
+      "src": "./img/caligo-site.png",
       "title": "Caligo | Discover Hidden Gems",
       "description": "Caligo is a travel app that helps you uncover hidden gems and local favorites in your destination city. It offers a curated list of must-visit spots, from restaurants and cafes to parks and museums, ensuring you experience the best of your chosen city. With Caligo, you can explore like a local and discover the hidden treasures that make each city unique.",
       "href": "https://github.com/EricRisher/caligo",
@@ -37,16 +37,21 @@
         "Next.js 14",
         "TypeScript",
         "JavaScript",
-        "Tailwind CSS",
         "MySQL",
+        "Tailwind CSS",
         "Google Maps API",
-        "Apache2"
-      ]
+        "Bcrypt",
+        "Sequelize",
+        "JSON Web Token",
+        "Apache2",
+        "Node"
+      ],
+      "active": true
     },
     {
       "id": 2,
-      "src": "./img/drivewayblasters.webp",
-      "title": "Driveway Blasters LLC | Pressure Washing Services",
+      "src": "./img/DrivewayBlasters-Mockup.webp",
+      "title": "Driveway Blasters | Business Showcase",
       "description": "Driveway Blasters LLC, founded by me and my business partner, leverages advanced pressure washing technology to offer top-notch cleaning services. We utilize high-pressure and soft washing techniques to ensure thorough and safe cleaning for a variety of surfaces, enhancing property appeal and maintenance.",
       "href": "https://github.com/EricRisher/driveway-blasters",
       "live": "https://drivewayblaster.com/",
@@ -55,8 +60,10 @@
         "Bootstrap",
         "TypeScript",
         "JavaScript",
-        "EmailJS",
         "Vercel",
+        "EmailJS",
+        "Axios",
+        "Cloudinary",
         "Node"
       ],
       "active": true
@@ -65,7 +72,7 @@
     {
       "id": 3,
       "src": "./img/quantumbyte.webp",
-      "title": "QuantumByte | Tech Blog",
+      "title": "QuantumByte | Developer Blog",
       "description": "QuantumByte is redefining digital storytelling for tech enthusiasts. It combines blog posting, real-time discussions, and secure user interaction, making it ideal for sharing and connecting with the tech community. Whether you're looking to share insights, explore new tech trends, or connect with like-minded individuals, QuantumByte is your go-to digital hub.",
       "href": "https://github.com/EricRisher/tech-blog",
       "live": "https://quantum-byte-86d6513b02b4.herokuapp.com/",
@@ -78,7 +85,7 @@
         "Sequelize",
         "Heroku"
       ],
-      "active": true
+      "active": false
     },
     {
       "id": 4,
@@ -96,7 +103,7 @@
         "IndexedDB",
         "Render"
       ],
-      "active": true
+      "active": false
     },
     {
       "id": 5,
@@ -114,7 +121,7 @@
         "Bcrypt",
         "Sequelize"
       ],
-      "active": true
+      "active": false
     },
     {
       "id": 6,
@@ -124,7 +131,7 @@
       "href": "https://github.com/EricRisher/weather-dashboard",
       "live": "https://ericrisher.github.io/weather-dashboard/",
       "tech": ["HTML", "CSS", "JavaScript", "OpenWeather API"],
-      "active": true
+      "active": false
     },
     {
       "id": 7,
@@ -134,7 +141,7 @@
       "href": "https://github.com/EricRisher/find-me-food",
       "live": "https://ericrisher.github.io/find-me-food/",
       "tech": ["HTML", "CSS", "JavaScript", "Google Maps API"],
-      "active": true
+      "active": false
     },
     {
       "id": 8,
@@ -144,7 +151,7 @@
       "href": "https://github.com/EricRisher/employee-tracker",
       "live": "https://github.com/EricRisher/employee-tracker",
       "tech": ["JavaScript", "Inquirer", "Jest", "MySQL", "Node"],
-      "active": true
+      "active": false
     },
     {
       "id": 9,
@@ -154,7 +161,7 @@
       "href": "https://github.com/EricRisher/social-network-api",
       "live": "https://github.com/EricRisher/social-network-api",
       "tech": ["Express", "Mongoose", "MongoDB", "Node"],
-      "active": true
+      "active": false
     }
   ],
   "tech": [
