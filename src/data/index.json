@@ -245,7 +245,7 @@
     },
     {
       "id": 12,
-      "svg": "./img/Webpack.svg",
+      "svg": "./img/webpack.svg",
       "alt": "Webpack",
       "active": true
     },
