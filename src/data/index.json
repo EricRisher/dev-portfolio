@@ -166,63 +166,33 @@
   ],
   "tech": [
     {
-      "id": 2,
+      "id": 1,
       "svg": "./img/javascript.svg",
       "alt": "JavaScript",
       "active": true
     },
     {
-      "id": 3,
-      "svg": "./img/nodejs.svg",
-      "alt": "Node.js",
-      "active": true
-    },
-    {
-      "id": 15,
-      "svg": "./img/nextjs.svg",
-      "alt": "Next.js",
-      "active": true
-    },
-    {
-      "id": 4,
+      "id": 2,
       "svg": "./img/react.svg",
       "alt": "React",
       "active": true
     },
     {
-      "id": 16,
-      "svg": "./img/html.svg",
-      "alt": "HTML",
+      "id": 3,
+      "svg": "./img/typescript.svg",
+      "alt": "TypeScript",
       "active": true
     },
     {
-      "id": 8,
-      "svg": "./img/github.svg",
-      "alt": "GitHub",
+      "id": 4,
+      "svg": "./img/nodejs.svg",
+      "alt": "Node.js",
       "active": true
     },
     {
       "id": 5,
       "svg": "./img/mongodb.svg",
       "alt": "MongoDB",
-      "active": true
-    },
-    {
-      "id": 9,
-      "svg": "./img/tailwindcss.svg",
-      "alt": "TailwindCSS",
-      "active": true
-    },
-    {
-      "id": 4,
-      "svg": "./img/mongodb.svg",
-      "alt": "MongoDB",
-      "active": true
-    },
-    {
-      "id": 14,
-      "svg": "./img/nextjs.svg",
-      "alt": "Next.js",
       "active": true
     },
     {
@@ -238,7 +208,25 @@
       "active": true
     },
     {
-      "id": 14,
+      "id": 8,
+      "svg": "./img/github.svg",
+      "alt": "GitHub",
+      "active": true
+    },
+    {
+      "id": 9,
+      "svg": "./img/tailwindcss.svg",
+      "alt": "Tailwind CSS",
+      "active": true
+    },
+    {
+      "id": 10,
+      "svg": "./img/figma.svg",
+      "alt": "Figma",
+      "active": true
+    },
+    {
+      "id": 11,
       "svg": "./img/heroku.svg",
       "alt": "Heroku",
       "active": true
@@ -246,13 +234,37 @@
     {
       "id": 12,
       "svg": "./img/webpack.svg",
-      "alt": "Webpack",
+      "alt": "Webpack.js",
       "active": true
     },
     {
-      "id": 7,
-      "svg": "./img/tailwindcss.svg",
-      "alt": "TailwindCSS",
+      "id": 13,
+      "svg": "./img/bootstrap.svg",
+      "alt": "Bootstrap",
+      "active": true
+    },
+    {
+      "id": 14,
+      "svg": "./img/docker.svg",
+      "alt": "docker.js",
+      "active": true
+    },
+    {
+      "id": 15,
+      "svg": "./img/nextjs.svg",
+      "alt": "Next.js",
+      "active": true
+    },
+    {
+      "id": 16,
+      "svg": "./img/html.svg",
+      "alt": "Html.js",
+      "active": true
+    },
+    {
+      "id": 17,
+      "svg": "./img/css.svg",
+      "alt": "CSS",
       "active": true
     }
   ],
