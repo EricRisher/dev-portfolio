@@ -266,6 +266,10 @@
       "svg": "./img/css.svg",
       "alt": "CSS",
       "active": true
+    },
+    {
+      "id": 18,
+      "svg" : "./img/vercel.svg"
     }
   ],
   "photography": [
