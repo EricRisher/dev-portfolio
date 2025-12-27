@@ -25,22 +25,6 @@ const MySkills = () => {
           </div>
         ))}
       </div>
-
-      <div className="tech--skills">
-        <div className="tech--skills--slider">
-          {[...data.tech, ...data.tech].map((tech, index) => (
-            <div key={index} className="tech--skill-card">
-              <img
-                src={tech.svg}
-                alt={tech.alt}
-                width="150px"
-                height="150px"
-                className="tech--skill--icon"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
     </section>
   );
 };

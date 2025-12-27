@@ -1,4 +1,3 @@
-import ContactMe from "../ContactMe";
 import AboutMe from "../AboutMe";
 import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
@@ -9,11 +8,11 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <MySkills />
       <MyPortfolio />
+      <MySkills />
       <AboutMe />
-      <ContactMe />
       <Footer />
+      
     </>
   );
 }

@@ -1,9 +1,9 @@
 import "./App.css";
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Pages/Home/Navbar";
 import Home from "./Pages/Home/Homescreen";
 import Photography from "./Pages/Home/Photography";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} /> 
           <Route path="/photography" element={<Photography />} /> 
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>

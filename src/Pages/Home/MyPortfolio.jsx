@@ -44,11 +44,8 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h3 className="section--heading">Recent Projects</h3>
+          <h2 className="section--heading">Featured Projects</h2>
         </div>
-        <button className="btn btn-github" onClick={navigateToGitHub}>
-          Visit My GitHub
-        </button>
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) =>
@@ -127,7 +124,86 @@ export default function MyPortfolio() {
             </div>
           ) : null
         )}
+        <div className="portfolio--section--card recent-work">
+          <div
+            className="portfolio--section--img"
+            onClick={() =>
+              window
+                .open(
+                  "https://github.com/EricRisher/three-js-portfolio",
+                  "_blank"
+                )
+                .focus()
+            }
+          >
+            <img
+              src="./img/threejs-portfolio.png"
+              alt=""
+              style={{ cursor: "pointer" }}
+            />
+          </div>
+          <div className="portfolio--section--card--content">
+            <div>
+              <h3 className="portfolio--section--title">
+                Creative Developer Portfolio | WIP
+              </h3>
+              <p className="text-md">
+                Currently working on updating my portfolio site to an updated
+                design that utilizes threejs for a more interactive and unique
+                user experiece. The new design features a fully interactable 3D
+                Sony Playstation Portable console that offers a more engaging
+                way to explore my projects and personality.
+              </p>
+            </div>
+            <div className="portfolio--section--card--content--icons">
+              <p
+                className="text-sm portfolio--link"
+                onClick={() =>
+                  window
+                    .open(
+                      "https://github.com/EricRisher/three-js-portfolio",
+                      "_blank"
+                    )
+                    .focus()
+                }
+              >
+                View In GitHub
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 20 19"
+                  fill="none"
+                >
+                  <path
+                    d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                    stroke="currentColor"
+                    strokeWidth="2.66667"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </p>
+            </div>
+            <div className="portfolio--tech-stack recent-work-tech">
+              <h3 className="tech-stack--title">Tech Stack</h3>
+              <div className="tech-stack--items">
+                <span className="tech-stack--item">Next JS</span>
+                <span className="tech-stack--item">React</span>
+                <span className="tech-stack--item">TypeScript</span>
+                <span className="tech-stack--item">Three JS</span>
+                <span className="tech-stack--item">React Fiber</span>
+                <span className="tech-stack--item">Framer Motion</span>
+                <span className="tech-stack--item">Tailwind</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <button className="btn btn-github" onClick={navigateToGitHub}>
+        View all Projects
+      </button>
     </section>
   );
 }

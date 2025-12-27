@@ -68,6 +68,21 @@
       ],
       "active": true
     },
+    {
+      "id": 4,
+      "src": "./img/threejs-portfolio.png",
+      "title": "Three.js Portfolio",
+      "description": "A portfolio website built with Three.js, showcasing 3D graphics and interactive experiences.",
+      "href": "https://github.com/EricRisher/threejs-portfolio",
+      "live": "https://threejs-portfolio.vercel.app/",
+      "tech": [
+        "Three.js",
+        "React",
+        "JavaScript",
+        "Vercel"
+      ],
+      "active": false
+    },
 
     {
       "id": 3,

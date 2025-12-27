@@ -68,10 +68,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="MyPortfolio"
               className="navbar--content"
             >
-              About Me
+              Portfolio
             </Link>
           </li>
           <li>
@@ -82,10 +82,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="AboutMe"
               className="navbar--content"
             >
-              Portfolio
+              About Me
             </Link>
           </li>
           {/* <li>
@@ -101,10 +101,7 @@ function Navbar() {
       </div>
       <div className="cta">
         <div className="header--social--icon">
-          <a
-            href="./swe-ericrisher.pdf"
-            download="EricRisherResume.pdf"
-          >
+          <a href="./swe-ericrisher.pdf" download="EricRisherResume.pdf">
             <svg
               className="svg-icon"
               viewBox="0 0 1024 1024"
@@ -145,7 +142,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          to="Contact"
+          to="/ontact"
           className="btn btn-outline-primary contactme-btn"
         >
           Contact Me
